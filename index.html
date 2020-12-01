@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Project</title>
-    <link rel="stylesheet" href="public/css/styles.css">
-  </head>
-  <body>
-    <div id="wrapper">
-      <div id="form">
-          <form target="blank">
-            <div id="account">
-              <h1>Registration Form</h1>
-              <p>Name: <input type="text" name="name" class="display" placeholder="Full Name" required></p>
-              <p>Mail: <input type="text" name="mail" class="display"  placeholder="E-mail" required></p>
-              <p>Telephone: <input type="text" name="telephone" class="display"  placeholder="telephone"></p>
-              <p>Subject: <input type="text" name="subject" class="display" placeholder="subject" required></p>
-              <p>Message: <textarea name="texto" rows="4" cols="40" class="display" placeholder="Write something" required></textarea></p>
-            </div>
-            <button type="submit" class="sing" value="submit">Contact us!</button>
-          </form>
-      </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Project</title>
+  <link rel="stylesheet" href="public/css/styles.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="answer"></div>
+    <div id="form">
+      <form name="dataForm" method="POST">
+        <div id="account">
+          <h1>Registration Form</h1>
+          <p>Name: <input type="text" name="name" class="display" placeholder="Full Name" required></p>
+          <p>Mail: <input type="text" name="mail" class="display" placeholder="E-mail" required></p>
+          <p>Telephone: <input type="text" name="telephone" class="display" placeholder="telephone"></p>
+          <p>Subject: <input type="text" name="subject" class="display" placeholder="subject" required></p>
+          <p>Message: <textarea name="text" rows="4" cols="40" class="display" placeholder="Write something"
+              required></textarea></p>
+        </div>
+        <button type="button" id="btn-submit" class="sing">Contact us!</button>
+      </form>
     </div>
-    <script src="js/script.js"></script>
-  </body>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
 </html
