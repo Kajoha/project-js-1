@@ -1,1 +1,98 @@
-body{margin:0;background-image:url(/img/rocket.jpg);background-repeat:no-repeat;background-size:cover;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif}#wrapper{position:relative}.clearfix::after{content:"";clear:both;display:table}h1{text-align:center;font-size:2rem;margin-top:50px;color:#3D2875}p{font-size:0.825rem;margin:0;color:#210d57}#form{width:400px;background-color:#F8F4F4;margin:35px 0 35px 0;position:absolute;right:50px}form{margin:15px}.display{width:80%;margin-bottom:10px;display:block;padding:10px 16px;border-radius:10px;outline:none;border:0.5px solid #ccd1d1}.sing{background-color:#3D2875;border:none;padding:8px 15px 8px 12px;color:#ffffff;font-size:1rem}button{margin-left:62%;margin-top:25px}@media (max-width: 500px){#wrapper{margin:0 auto;align-content:center;position:relative}#form{width:100%;position:relative;right:0}}
+body {
+  margin: 0;
+  background-image: url(/img/rocket.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+#wrapper {
+  position: relative; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 50px;
+  color: #3D2875; }
+
+p {
+  font-size: 0.825rem;
+  margin: 0;
+  color: #210d57; }
+
+#form {
+  width: 400px;
+  background-color: #F8F4F4;
+  margin: 35px 0 35px 0;
+  position: absolute;
+  right: 50px; }
+
+form {
+  margin: 15px; }
+
+.display {
+  width: 80%;
+  margin-bottom: 10px;
+  display: block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  outline: none;
+  border: 0.5px solid #ccd1d1; }
+
+.sing {
+  background-color: #3D2875;
+  border: none;
+  padding: 8px 15px 8px 12px;
+  color: #ffffff;
+  font-size: 1rem; }
+
+button {
+  margin-left: 62%;
+  margin-top: 25px; }
+
+#answer {
+  width: 400px;
+  background-color: #F8F4F4;
+  margin: 35px 0 35px 0;
+  position: absolute;
+  right: 50px; }
+
+.first {
+  font-size: 1rem;
+  color: #1e0342;
+  margin: 35px 0 15px 0;
+  display: block;
+  align-content: center;
+  text-align: center; }
+
+.received {
+  font-size: 1rem;
+  color: #1e0342;
+  margin: 15px 0 15px 0;
+  display: block;
+  align-content: center;
+  text-align: center; }
+
+h5 {
+  text-align: center;
+  font-size: 0.825rem;
+  margin-top: 50px;
+  color: #3D2875; }
+
+@media (max-width: 500px) {
+  #wrapper {
+    margin: 0 auto;
+    align-content: center;
+    position: relative; }
+  #form {
+    width: 100%;
+    position: relative;
+    right: 0; }
+  #answer {
+    width: 100%;
+    position: relative;
+    right: 0; } }
